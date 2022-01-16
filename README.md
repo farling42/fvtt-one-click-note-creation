@@ -2,6 +2,12 @@
 
 Create Notes directly on the Notes Layer with a simple left click.
 
+## Installation
+
+1) Install from the list of modules available within the Foundry VTT modules list.
+
+2) Install by using a manifest URL of https://github.com/farling42/fvtt-one-click-note-creation/releases/latest/download/module.json
+
 ## Support
 
 If you like what it does, then all contributions will be gratefully received at [Kofi](https://ko-fi.com/farling) or [Paypal](https://paypal.me/farling)
