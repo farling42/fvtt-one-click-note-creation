@@ -33,6 +33,6 @@
 Hooks.once('canvasInit', () => {
     	// This module is only required for GMs (game.user accessible from 'ready' event but not 'init' event)
 	if (game.user.isGM) {
-        libWrapper.register(MODULE_NAME, 'NotesLayer.prototype._onClickLeft', NotesLayer_onClickLeft, libWrapper.OVERRIDE);
+        libWrapper.register("one-click-note-creation", 'NotesLayer.prototype._onClickLeft', NotesLayer_onClickLeft, libWrapper.OVERRIDE);
 	}
 })

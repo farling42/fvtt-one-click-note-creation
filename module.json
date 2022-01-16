@@ -1,8 +1,8 @@
 {
-  "name": "create-unlinked-notes",
-  "title": "Click to Create Notes",
+  "name": "one-click-note-creation",
+  "title": "One-Click Note Creation",
   "description": "A Note can be created by directly left-clicking on the Notes Layer",
-  "version": "This is auto replaced",
+  "version": "0.1.0",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "0.8.6",
@@ -19,14 +19,16 @@
     }
   ],
   "dependencies": [
-    "name": "lib-wrapper",
-    "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+    {
+      "name": "lib-wrapper",
+      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+    }
   ],
   "conflicts": [
     
   ],
   "esmodules": [
-    "/scripts/create-unlinked-notes.mjs"
+    "/scripts/one-click-note-creation.mjs"
   ],
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
