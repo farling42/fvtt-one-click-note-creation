@@ -1,4 +1,5 @@
 {
+  "id": "one-click-note-creation",
   "name": "one-click-note-creation",
   "title": "One-Click Note Creation",
   "description": "A Note can be created by directly left-clicking on the Notes Layer",
@@ -6,7 +7,12 @@
   "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "10",
+	"compatibility": {
+		"minimum" : "10",
+		"verified": "10.273",
+		"maximum" : "10"
+	},
   "authors": [
     {
       "name": "Farling",
@@ -18,14 +24,20 @@
       "twitter": "@shambles42"
     }
   ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+      }
+    ]
+  },
   "dependencies": [
     {
+      "id": "lib-wrapper",
       "name": "lib-wrapper",
       "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
     }
-  ],
-  "conflicts": [
-    
   ],
   "esmodules": [
     "/scripts/one-click-note-creation.mjs"
